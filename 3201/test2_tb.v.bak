@@ -1,0 +1,45 @@
+`timescale 1ns/1ps
+
+module test2_tb;
+
+    // Inputs
+    reg clk;
+    reg a;
+
+    // Outputs
+    wire [3:0] r;
+
+    // Instantiate the DUT
+    test2 dut (
+        .clk(clk),
+        .a(a),
+        .r(r)
+    );
+
+    // Clock generation: 20 ns period (10 ns high, 10 ns low)
+    initial begin
+        clk = 1'b0;
+    end
+
+    always #10 clk = ~clk;
+
+    // Drive input a: 0 for 100 ns, 1 for 200 ns, then 0
+    initial begin
+        a = 1'b0;   // 0 for first 100 ns
+        #100;
+        a = 1'b1;   // 1 for next 200 ns
+        #200;
+        a = 1'b0;   // 0 afterward
+        #200;       // let it run a bit more
+        $finish;
+    end
+
+    // Monitor r: print whenever r == 0
+    always @(posedge clk) begin
+        if (r == 4'b0000) begin
+            $display("All outputs are zero at time %0t, r = %b", $time, r);
+        end
+    end
+
+endmodule
+

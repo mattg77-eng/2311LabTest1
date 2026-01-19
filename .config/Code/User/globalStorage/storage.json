@@ -1,0 +1,91 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "4679899022e34f5ad1e130075f542de6054efcb0d5451ba772058d8d1ba1310c",
+    "telemetry.devDeviceId": "180bd130-b6a2-47a4-a4ef-5132dfdb45ff",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///cs/home/mattg77/Downloads/project_mmu_Matthew"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1764536921724"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///cs/home/mattg77/StarterKit-Code": "__default__profile__",
+            "file:///cs/home/mattg77/Downloads/StarterKit-F25": "__default__profile__",
+            "file:///cs/home/mattg77/Downloads/project_mmu_Matthew": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///cs/home/mattg77/Downloads/project_mmu_Matthew",
+            "backupPath": "/cs/home/mattg77/.config/Code/Backups/7a5c31f11be5e09aa6cc587ab30fd569",
+            "uiState": {
+                "mode": 0,
+                "x": 938,
+                "y": 27,
+                "width": 938,
+                "height": 904
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "6e2a45f1561a8fc9073d38f9218869ac": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "cd379edcb65813ec58ad7d31beb2c8fd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "78c256822631df59fae3c1a58ce79e1b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

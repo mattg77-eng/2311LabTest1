@@ -1,0 +1,67 @@
+[2024-11-17T20:27:18.827-0500] [INFO ] Socket 14: connection accepted from AF_UNIX
+[2024-11-17T20:27:18.829-0500] [INFO ] sound_process_output_format:
+[2024-11-17T20:27:18.829-0500] [INFO ]       wFormatNo       0
+[2024-11-17T20:27:18.829-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-17T20:27:18.829-0500] [INFO ]       nChannels       2
+[2024-11-17T20:27:18.829-0500] [INFO ]       nSamplesPerSec  44100
+[2024-11-17T20:27:18.830-0500] [INFO ]       nAvgBytesPerSec 176400
+[2024-11-17T20:27:18.830-0500] [INFO ]       nBlockAlign     4
+[2024-11-17T20:27:18.830-0500] [INFO ]       wBitsPerSample  16
+[2024-11-17T20:27:18.830-0500] [INFO ]       cbSize          0
+[2024-11-17T20:27:18.830-0500] [INFO ] sound_process_output_format:
+[2024-11-17T20:27:18.830-0500] [INFO ]       wFormatNo       1
+[2024-11-17T20:27:18.831-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-17T20:27:18.831-0500] [INFO ]       nChannels       2
+[2024-11-17T20:27:18.831-0500] [INFO ]       nSamplesPerSec  22050
+[2024-11-17T20:27:18.831-0500] [INFO ]       nAvgBytesPerSec 88200
+[2024-11-17T20:27:18.831-0500] [INFO ]       nBlockAlign     4
+[2024-11-17T20:27:18.832-0500] [INFO ]       wBitsPerSample  16
+[2024-11-17T20:27:18.832-0500] [INFO ]       cbSize          0
+[2024-11-17T20:27:18.835-0500] [INFO ] sound_process_training: round trip time 3
+[2024-11-17T20:27:33.622-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:27:33.623-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:27:33.625-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:27:33.703-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:27:33.704-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:27:33.825-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:27:33.825-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:27:33.825-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:27:33.829-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:27:33.829-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:27:33.930-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:27:33.942-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:27:37.865-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:27:37.866-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:28:04.654-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:28:04.855-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:28:49.142-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-17T20:28:49.143-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:28:49.143-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:28:51.581-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-17T20:28:51.582-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:28:51.583-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:28:53.471-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-17T20:28:53.473-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:28:53.473-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-17T20:38:44.450-0500] [INFO ] Socket 16: connection accepted from AF_UNIX
+[2024-11-17T20:38:44.451-0500] [INFO ] sound_process_output_format:
+[2024-11-17T20:38:44.452-0500] [INFO ]       wFormatNo       0
+[2024-11-17T20:38:44.452-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-17T20:38:44.453-0500] [INFO ]       nChannels       2
+[2024-11-17T20:38:44.453-0500] [INFO ]       nSamplesPerSec  44100
+[2024-11-17T20:38:44.454-0500] [INFO ]       nAvgBytesPerSec 176400
+[2024-11-17T20:38:44.454-0500] [INFO ]       nBlockAlign     4
+[2024-11-17T20:38:44.454-0500] [INFO ]       wBitsPerSample  16
+[2024-11-17T20:38:44.454-0500] [INFO ]       cbSize          0
+[2024-11-17T20:38:44.454-0500] [INFO ] sound_process_output_format:
+[2024-11-17T20:38:44.454-0500] [INFO ]       wFormatNo       1
+[2024-11-17T20:38:44.455-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-17T20:38:44.455-0500] [INFO ]       nChannels       2
+[2024-11-17T20:38:44.455-0500] [INFO ]       nSamplesPerSec  22050
+[2024-11-17T20:38:44.455-0500] [INFO ]       nAvgBytesPerSec 88200
+[2024-11-17T20:38:44.455-0500] [INFO ]       nBlockAlign     4
+[2024-11-17T20:38:44.456-0500] [INFO ]       wBitsPerSample  16
+[2024-11-17T20:38:44.456-0500] [INFO ]       cbSize          0
+[2024-11-17T20:38:44.463-0500] [INFO ] sound_process_training: round trip time 7
+[2024-11-17T20:38:44.470-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-17T20:38:44.470-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8

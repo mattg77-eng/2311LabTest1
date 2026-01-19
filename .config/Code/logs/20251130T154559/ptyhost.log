@@ -1,0 +1,6 @@
+2025-11-30 15:46:01.876 [info] Revived process, old id 6e2a45f1561a8fc9073d38f9218869ac-1 -> new id 1
+2025-11-30 15:46:01.881 [info] Expanding terminal instance, old id 6e2a45f1561a8fc9073d38f9218869ac-2 -> new id undefined
+2025-11-30 15:46:01.881 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty 2 on pty host
+2025-11-30 15:46:02.654 [warning] Shell integration cannot be enabled for executable "/cs/local/bin/tcsh" and args undefined
+2025-11-30 15:57:09.864 [warning] Shell integration cannot be enabled for executable "/cs/local/bin/tcsh" and args undefined
+2025-11-30 15:58:33.066 [warning] Shell integration cannot be enabled for executable "/cs/local/bin/tcsh" and args undefined

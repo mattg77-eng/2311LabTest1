@@ -1,0 +1,26 @@
+[2025-05-25T14:59:15.375-0400] [INFO ] Socket 14: connection accepted from AF_UNIX
+[2025-05-25T14:59:15.407-0400] [INFO ] sound_process_output_format:
+[2025-05-25T14:59:15.407-0400] [INFO ]       wFormatNo       0
+[2025-05-25T14:59:15.407-0400] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2025-05-25T14:59:15.407-0400] [INFO ]       nChannels       2
+[2025-05-25T14:59:15.407-0400] [INFO ]       nSamplesPerSec  44100
+[2025-05-25T14:59:15.408-0400] [INFO ]       nAvgBytesPerSec 176400
+[2025-05-25T14:59:15.408-0400] [INFO ]       nBlockAlign     4
+[2025-05-25T14:59:15.408-0400] [INFO ]       wBitsPerSample  16
+[2025-05-25T14:59:15.408-0400] [INFO ]       cbSize          0
+[2025-05-25T14:59:15.408-0400] [INFO ] sound_process_output_format:
+[2025-05-25T14:59:15.408-0400] [INFO ]       wFormatNo       1
+[2025-05-25T14:59:15.409-0400] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2025-05-25T14:59:15.409-0400] [INFO ]       nChannels       2
+[2025-05-25T14:59:15.409-0400] [INFO ]       nSamplesPerSec  22050
+[2025-05-25T14:59:15.409-0400] [INFO ]       nAvgBytesPerSec 88200
+[2025-05-25T14:59:15.409-0400] [INFO ]       nBlockAlign     4
+[2025-05-25T14:59:15.410-0400] [INFO ]       wBitsPerSample  16
+[2025-05-25T14:59:15.410-0400] [INFO ]       cbSize          0
+[2025-05-25T14:59:15.415-0400] [INFO ] sound_process_training: round trip time 5
+[2025-05-25T15:00:19.778-0400] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1748199613682:1850813823
+[2025-05-25T15:00:19.782-0400] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1748199613682:1850813823
+[2025-05-25T15:01:11.288-0400] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1748199662384:1898885237
+[2025-05-25T15:01:11.289-0400] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1748199662384:1898885237
+[2025-05-25T15:05:26.504-0400] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1748199662384:1898885237
+[2025-05-25T15:05:26.507-0400] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1748199662384:1898885237

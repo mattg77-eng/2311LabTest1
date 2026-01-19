@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+    <pim project="/Bank">
+        <rodin_index>
+            <descriptor element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#+" name="d">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-" name="withdraw">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.parameter#'" name="a">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#)" name="ACCOUNT">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#'" name="c">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.parameter#(" name="v">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="14"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#)" name="b">
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="12"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+                <occurrence element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Bank/Bank0.bum">
+                <exported element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0"/>
+                <exported element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#)" name="b"/>
+                <exported element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#+" name="d"/>
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#)" name="ACCOUNT"/>
+                <exported element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.parameter#'" name="a"/>
+                <exported element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-|org.eventb.core.parameter#(" name="v"/>
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#'" name="c"/>
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+                <exported element="/Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#-" name="withdraw"/>
+            </export>
+            <export file="/Bank/C0.buc">
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#)" name="ACCOUNT"/>
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#'" name="c"/>
+                <exported element="/Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Bank/C0.buc" mark="false" order_pos="0"/>
+            <node label="/Bank/Bank0.bum" mark="false" order_pos="1">
+                <predecessor label="/Bank/C0.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/Bank/C0.bcc"/>
+        <unprocessed file="/Bank/C0.bpo"/>
+        <unprocessed file="/Bank/C0.bpr"/>
+        <unprocessed file="/Bank/C0.bps"/>
+        <unprocessed file="/Bank/Bank0.bcm"/>
+        <unprocessed file="/Bank/Bank0.bpo"/>
+        <unprocessed file="/Bank/Bank0.bpr"/>
+        <unprocessed file="/Bank/Bank0.bps"/>
+    </pim>
+    <pim project="/Celebrity">
+        <rodin_index>
+            <descriptor element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+" name="Celebrity">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" name="Celebrity_c0">
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" kind="org.eventb.core.declaration"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#\/" name="P">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="14"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0" name="Celebrity_0">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" name="c">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.variable#)" name="r">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" name="k">
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Celebrity/Celebrity_c0.buc">
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#\/" name="P"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" name="k"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" name="Celebrity_c0"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" name="c"/>
+            </export>
+            <export file="/Celebrity/Celebrity_0.bum">
+                <exported element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.event#+" name="Celebrity"/>
+                <exported element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0" name="Celebrity_0"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#\/" name="P"/>
+                <exported element="/Celebrity/Celebrity_0.bum|org.eventb.core.machineFile#Celebrity_0|org.eventb.core.variable#)" name="r"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#'" name="k"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0" name="Celebrity_c0"/>
+                <exported element="/Celebrity/Celebrity_c0.buc|org.eventb.core.contextFile#Celebrity_c0|org.eventb.core.constant#(" name="c"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Celebrity/Celebrity_c0.buc" mark="false" order_pos="0"/>
+            <node label="/Celebrity/Celebrity_0.bum" mark="false" order_pos="1">
+                <predecessor label="/Celebrity/Celebrity_c0.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/Celebrity/Celebrity_c0.bcc"/>
+        <unprocessed file="/Celebrity/Celebrity_c0.bpo"/>
+        <unprocessed file="/Celebrity/Celebrity_c0.bpr"/>
+        <unprocessed file="/Celebrity/Celebrity_c0.bps"/>
+        <unprocessed file="/Celebrity/Celebrity_0.bcm"/>
+        <unprocessed file="/Celebrity/Celebrity_0.bpo"/>
+        <unprocessed file="/Celebrity/Celebrity_0.bpr"/>
+        <unprocessed file="/Celebrity/Celebrity_0.bps"/>
+    </pim>
+    <pim project="/Celebrity_1">
+        <rodin_index>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1" name="Celebrity_1">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/" name="remove2">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#)" name="P">
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="14"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="5"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#," name="x">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#)" name="r">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#'" name="k">
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#-" name="y">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0" name="celebrity_c0">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#." name="remove1">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0" name="celebrity">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#*" name="Q">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#(" name="c">
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+                <occurrence element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#-" name="y">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+            </descriptor>
+            <descriptor element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#," name="x">
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Celebrity_1/celebrity_c0.buc">
+                <exported element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#'" name="k"/>
+                <exported element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#)" name="P"/>
+                <exported element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#(" name="c"/>
+                <exported element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0" name="celebrity_c0"/>
+            </export>
+            <export file="/Celebrity_1/Celebrity_1.bum">
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#-" name="y"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#." name="remove1"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#0" name="celebrity"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#*" name="Q"/>
+                <exported element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0" name="celebrity_c0"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#," name="x"/>
+                <exported element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#'" name="k"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#.|org.eventb.core.parameter#," name="x"/>
+                <exported element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#)" name="P"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1" name="Celebrity_1"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/" name="remove2"/>
+                <exported element="/Celebrity_1/celebrity_c0.buc|org.eventb.core.contextFile#celebrity_c0|org.eventb.core.constant#(" name="c"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.variable#)" name="r"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#\/|org.eventb.core.parameter#-" name="y"/>
+                <exported element="/Celebrity_1/Celebrity_1.bum|org.eventb.core.machineFile#Celebrity_1|org.eventb.core.event#'" name="INITIALISATION"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Celebrity_1/celebrity_c0.buc" mark="false" order_pos="0"/>
+            <node label="/Celebrity_1/Celebrity_1.bum" mark="false" order_pos="1">
+                <predecessor label="/Celebrity_1/celebrity_c0.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/Celebrity_1/celebrity_c0.bcc"/>
+        <unprocessed file="/Celebrity_1/celebrity_c0.bpo"/>
+        <unprocessed file="/Celebrity_1/celebrity_c0.bpr"/>
+        <unprocessed file="/Celebrity_1/celebrity_c0.bps"/>
+        <unprocessed file="/Celebrity_1/Celebrity_1.bcm"/>
+        <unprocessed file="/Celebrity_1/Celebrity_1.bpo"/>
+        <unprocessed file="/Celebrity_1/Celebrity_1.bpr"/>
+        <unprocessed file="/Celebrity_1/Celebrity_1.bps"/>
+    </pim>
+    <delta_list/>
+    <indexer_registry>
+        <registry_entry element_type="org.eventb.core.machineFile">
+            <indexer id="machineIndexer"/>
+        </registry_entry>
+        <registry_entry element_type="org.eventb.core.contextFile">
+            <indexer id="contextIndexer"/>
+        </registry_entry>
+    </indexer_registry>
+</index_root>

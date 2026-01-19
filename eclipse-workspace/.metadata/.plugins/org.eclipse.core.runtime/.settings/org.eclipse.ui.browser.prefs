@@ -1,0 +1,4 @@
+#Tue May 20 21:09:31 EDT 2025
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="1">\n<system/>\n<external location\="/eecs/local/bin/firefox" name\="firefox" parameters\="-url %URL%"/>\n</web-browsers>
+browser-choice=1
+eclipse.preferences.version=1

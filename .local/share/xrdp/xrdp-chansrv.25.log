@@ -1,0 +1,153 @@
+[2025-11-10T18:48:15.588-0500] [INFO ] Socket 14: connection accepted from AF_UNIX
+[2025-11-10T18:48:15.590-0500] [INFO ] sound_process_output_format:
+[2025-11-10T18:48:15.590-0500] [INFO ]       wFormatNo       0
+[2025-11-10T18:48:15.590-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2025-11-10T18:48:15.591-0500] [INFO ]       nChannels       2
+[2025-11-10T18:48:15.591-0500] [INFO ]       nSamplesPerSec  44100
+[2025-11-10T18:48:15.591-0500] [INFO ]       nAvgBytesPerSec 176400
+[2025-11-10T18:48:15.592-0500] [INFO ]       nBlockAlign     4
+[2025-11-10T18:48:15.592-0500] [INFO ]       wBitsPerSample  16
+[2025-11-10T18:48:15.592-0500] [INFO ]       cbSize          0
+[2025-11-10T18:48:15.592-0500] [INFO ] sound_process_output_format:
+[2025-11-10T18:48:15.593-0500] [INFO ]       wFormatNo       1
+[2025-11-10T18:48:15.593-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2025-11-10T18:48:15.593-0500] [INFO ]       nChannels       2
+[2025-11-10T18:48:15.593-0500] [INFO ]       nSamplesPerSec  22050
+[2025-11-10T18:48:15.593-0500] [INFO ]       nAvgBytesPerSec 88200
+[2025-11-10T18:48:15.593-0500] [INFO ]       nBlockAlign     4
+[2025-11-10T18:48:15.594-0500] [INFO ]       wBitsPerSample  16
+[2025-11-10T18:48:15.594-0500] [INFO ]       cbSize          0
+[2025-11-10T18:48:15.596-0500] [INFO ] sound_process_training: round trip time 2
+[2025-11-10T18:52:30.384-0500] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1762818746677:1910687448
+[2025-11-10T18:52:30.385-0500] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1762818746677:1910687448
+[2025-11-10T18:53:18.863-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:19.645-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:19.686-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:22.382-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:24.498-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:26.352-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:27.854-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:29.262-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:29.291-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:30.320-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:44.578-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:44.585-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:44.708-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:44.715-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:47.185-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:47.200-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:48.378-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:48.393-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:59.107-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:59.108-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:59.138-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:53:59.145-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:08.829-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:08.150-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:08.106-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:08.113-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:11.248-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:11.269-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:11.315-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:11.359-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:11.793-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:20.717-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:20.723-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:20.806-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:20.812-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:31.598-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:31.608-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:31.158-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:31.165-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:34.584-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:34.604-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:34.606-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:35.672-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:44.330-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:44.398-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:44.160-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:44.168-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:56.560-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:56.625-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:56.146-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:54:56.153-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:33.513-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:34.317-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:34.365-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:35.778-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:36.911-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:42.393-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:42.399-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:42.495-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:55:42.502-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:56:10.253-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:56:10.317-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:56:10.225-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:56:10.232-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:56:57.920-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:56:57.933-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:56:58.578-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:56:58.596-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:57:01.423-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:57:01.436-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:57:31.329-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:57:43.196-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:57:43.203-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:57:43.274-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:57:43.280-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:57:59.654-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:10.574-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:10.590-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:12.112-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:14.547-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:14.583-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:24.287-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:25.852-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:33.252-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:40.203-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:40.977-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:41.113-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:42.960-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:45.502-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:45.524-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:47.157-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:55.487-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:55.493-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:55.634-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:58:55.640-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:07.775-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:07.776-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:07.904-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:07.910-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:22.731-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:23.508-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:23.532-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:24.740-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:25.484-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:39.807-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:39.814-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:39.911-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:39.917-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:56.681-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:56.687-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:56.770-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T18:59:56.777-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:25.228-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:32.765-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:32.923-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:36.377-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:36.410-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:37.991-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:43.905-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:43.105-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:46.315-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:46.348-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:47.888-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:48.692-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:48.713-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:00:50.287-0500] [ERROR] clipboard_event_selection_request: unknown target rodin-element
+[2025-11-10T19:06:51.573-0500] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1762818746677:1910687448
+[2025-11-10T19:06:51.583-0500] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1762818746677:1910687448
+[2025-11-10T19:06:51.637-0500] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1762818746677:1910687448
+[2025-11-10T19:06:51.643-0500] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1762818746677:1910687448
+[2025-11-10T19:06:51.408-0500] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1762818746677:1910687448

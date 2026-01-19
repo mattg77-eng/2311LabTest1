@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="light" data-light-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I" />
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>GitHub Classroom</title>
+
+    <link rel="stylesheet" href="/assets/application-7bff83670345a1b619e699d715570f4e6b6534408b7ad58a6a76852f4ef09711.css" media="all" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="xnHpl_mkD-AaJc-yoYMgNIIRtF3VSAWYUoYbPftCFaz_MVo415iCCFrUh90BjpX4eWdc35TaR1s90qmRk8h5kw" />
+
+    <meta property="og:title" content="GitHub Classroom" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub." />
+<meta property="og:url" content="https://classroom.github.com/" />
+<meta property="og:image" content="https://classroom.github.com/images/og-image.png" />
+
+  </head>
+  <body class="assignment_invitations show">
+    <div id="loading-indicator" class="d-none">
+      <span data-view-component="true">
+  <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="64" height="64" viewBox="0 0 16 16" fill="none" aria-hidden="true" data-view-component="true" class="anim-rotate">
+    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" fill="none" />
+    <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>    <span class="sr-only">Loading</span>
+</span>
+    </div>
+
+    
+    <header class="site-header">
+  <div class="container-lg d-md-flex flex-items-center flex-justify-between p-responsive py-3">
+    <a class="d-block text-center mb-2 mb-md-0" href="/classrooms"><img class="site-logo" alt="GitHub for Classrooms" src="/assets/logo@2x-359822cadd20ca23375c31f21048ef9e4981da2637cf650ffaf0b60c57917871.png" /></a>
+
+    <nav aria-labelledby="nav-heading" class="site-nav d-sm-flex flex-wrap flex-content-start flex-justify-center">
+      <h2 id="nav-heading" class="sr-only">GitHub Classroom</h2>
+      <ul class="list-style-none d-flex flex-justify-center">
+        <li class="flex-self-center mr-2">
+          <a href="https://education.github.com" data-view-component="true" class="Link">GitHub Education</a>
+        </li>
+        
+        <li class="mx-2">
+          <a href="https://education.github.com/forum" id="icon-button-41404398-42d0-4b4a-b78e-e2a905a52cf8" aria-labelledby="tooltip-25d77577-a049-4a60-8637-0c7740b9c41f" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment-discussion Button-visual">
+    <path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z"></path>
+</svg>
+</a><tool-tip id="tooltip-25d77577-a049-4a60-8637-0c7740b9c41f" for="icon-button-41404398-42d0-4b4a-b78e-e2a905a52cf8" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Community discussion</tool-tip>
+
+        </li>
+
+        <li class="mx-2">
+          <a href="https://support.github.com/contact" id="icon-button-b7a054c7-98ed-4d41-9aeb-41bbd884e17e" aria-labelledby="tooltip-43f8f022-2a66-4340-8f9d-34d406568214" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bug Button-visual">
+    <path d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.488 3.488 0 0 1 2.441 0l.999-1a.748.748 0 0 1 1.265.332.75.75 0 0 1-.205.729l-.775.776c.616.63.995 1.493.995 2.444v.327c0 .1-.009.197-.025.292.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5c0 .409-.049.806-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A4.997 4.997 0 0 1 8 16a4.997 4.997 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5.036 5.036 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.677 1.677 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06Zm.53 6.28a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75ZM6.173 5h3.654A.172.172 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173Z"></path>
+</svg>
+</a><tool-tip id="tooltip-43f8f022-2a66-4340-8f9d-34d406568214" for="icon-button-b7a054c7-98ed-4d41-9aeb-41bbd884e17e" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Report a bug</tool-tip>
+
+        </li>
+
+        <li class="mx-2">
+          <a href="/help" id="icon-button-e29a619c-1a0f-4dda-a55d-9aa5bd7b7439" aria-labelledby="tooltip-5395a24a-2c65-488b-b0a7-76d63a4d6cfd" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-question Button-visual">
+    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.756 2.756 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.103-.067.207-.132.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</a><tool-tip id="tooltip-5395a24a-2c65-488b-b0a7-76d63a4d6cfd" for="icon-button-e29a619c-1a0f-4dda-a55d-9aa5bd7b7439" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Help</tool-tip>
+
+        </li>
+
+        <li class="mx-2">
+          <a aria-label="View GitHub profile" show_tooltip="true" href="https://github.com/mattg77-eng" data-view-component="true" class="Button--invisible Button--medium Button Button--invisible-noVisuals">  <span class="Button-content">
+    <span class="Button-label"><img src="https://avatars.githubusercontent.com/u/255915226?v=4&amp;size=40" alt="@mattg77-eng" size="20" height="20" width="20" data-view-component="true" class="avatar avatar-small circle" /></span>
+  </span>
+</a>
+
+        </li>
+
+        <li class="ml-2">
+          <a href="/logout" id="icon-button-a8176763-6598-44fa-a031-6d4893ae93ae" aria-labelledby="tooltip-ab905835-9103-49f9-b2e2-3c12046f44e9" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sign-out Button-visual">
+    <path d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 0 1 0 1.5h-2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 0 1 0 1.5h-2.5A1.75 1.75 0 0 1 2 13.25Zm10.44 4.5-1.97-1.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734l1.97-1.97H6.75a.75.75 0 0 1 0-1.5Z"></path>
+</svg>
+</a><tool-tip id="tooltip-ab905835-9103-49f9-b2e2-3c12046f44e9" for="icon-button-a8176763-6598-44fa-a031-6d4893ae93ae" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Sign out</tool-tip>
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    
+
+    
+
+    <main class="site-content">
+      <div class="container-lg">
+        
+<div class="site-content container-md pt-7 px-3">
+
+  <div class="col-lg-10 mx-auto overflow-hidden">
+    <h2 class="f1 text-normal lh-ultra mb-3">
+      Join the classroom:
+      <span class='d-block color-fg-success'>hvpham-yorku-EECS2311Z-W26</span>
+    </h2>
+  </div>
+
+  <div class="col-lg-10 mx-auto">
+    <p class="f3 color-fg-muted lh-default">To join the GitHub Classroom for this course, please select yourself from the list below to associate your GitHub account with your schoolâ€™s identifier (i.e., your name, ID, or email).</p>
+    <p class='text-right color-fg-muted pt-1 pb-3'>Canâ€™t find your name? <a href="/assignment-invitations/561775a61cea8335d6291e38d7314178?roster=ignore">Skip to the next step â†’</a> </p>
+
+    <div class="border my-3">
+      <h3 class="f4 color-bg-subtle p-2 pl-3 border-bottom ">Identifiers</h3>
+        <div class="overflow-auto" style="height:calc(50vh - 60px);">
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="PgzDeSfQkIzLapNgUCCopbj6AsCjc1FD1FZABLGHL08HTHDWCewdZIub2w_wLR1pQ4zqQuLhE4C7AvKo2Q1DcA" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942857" autocomplete="off" />
+                <input type="submit" name="commit" value="Aqsa,Malik" data-confirm="Are you sure that you want to select the identifier Aqsa,Malik?" data-disable-with="Aqsa,Malik" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="jlw_djYByiTRduHSSdhcpzbrF2cumDCXYBlk0qRuGCm3HIzZGD1HzJGHqb3p1elrzZ3_5W8KclQPTdZ-zOR0Fg" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942822" autocomplete="off" />
+                <input type="submit" name="commit" value="Ashdeep,Ashdeep Singh" data-confirm="Are you sure that you want to select the identifier Ashdeep,Ashdeep Singh?" data-disable-with="Ashdeep,Ashdeep Singh" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="btLD7ZKoXpSYsiTIxqT4UvGrZamg_mNI7wpvqP4MCFhXknBCvJTTfNhDbKdmqU2eCt2NK-FsIYuAXt0EloZkZw" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942820" autocomplete="off" />
+                <input type="submit" name="commit" value="Ayesha,Ammani" data-confirm="Are you sure that you want to select the identifier Ayesha,Ammani?" data-disable-with="Ayesha,Ammani" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="sqPalN1-TN_985wcGHPQd-As38YuHNLdOdBn6rrYNXiL42k780LBN70C1HO4fmW7G1o3RG-OkB5WhNVG0lJZRw" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942818" autocomplete="off" />
+                <input type="submit" name="commit" value="Bardiya,Ameri" data-confirm="Are you sure that you want to select the identifier Bardiya,Ameri?" data-disable-with="Bardiya,Ameri" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="m9hlZSnA8f7J-TcgEVVBBvU4tgCstriONm3KTtb5V46imNbKB_x8FokIf0-xWPTKDk5egu0k-k1ZOXjivnM7sQ" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942861" autocomplete="off" />
+                <input type="submit" name="commit" value="Chilotam,Mba" data-confirm="Are you sure that you want to select the identifier Chilotam,Mba?" data-disable-with="Chilotam,Mba" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="YLLTFdOM-bzi5iLgAW9RYCVohnEybq55ulfZaij5Q4JZ8mC6_bB0VKIXao-hYuSs3h5u83P87LrVA2vGQHMvvQ" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942845" autocomplete="off" />
+                <input type="submit" name="commit" value="Clark,Irwin" data-confirm="Are you sure that you want to select the identifier Clark,Irwin?" data-disable-with="Clark,Irwin" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="cN4ZTCyDUdwJnkeW8q4ZDaLBAG9qz4CCnve7vFbRf_BJnqrjAr_cNElvD_lSo6zBWbfo7StdwkHxowkQPlsTzw" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942868" autocomplete="off" />
+                <input type="submit" name="commit" value="Daail,Shah" data-confirm="Are you sure that you want to select the identifier Daail,Shah?" data-disable-with="Daail,Shah" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="nCxj2yeA_CuyqydEGXgxw7aHji_4CB1CVR6xouSOzkmlbNB0Cbxxw_Jabyu5dYQPTfFmrbmaX4E6SgMOjASidg" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942862" autocomplete="off" />
+                <input type="submit" name="commit" value="Daksh,Patel" data-confirm="Are you sure that you want to select the identifier Daksh,Patel?" data-disable-with="Daksh,Patel" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="2GOIMQk-DHucA3OhopN3FALclDz0eFUQdy23gs_dpIHhIzueJwKBk9zyO84CnsLY-ap8vrXqF9MYeQUup1fIvg" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942815" autocomplete="off" />
+                <input type="submit" name="commit" value="Dawood,Al-Janaby" data-confirm="Are you sure that you want to select the identifier Dawood,Al-Janaby?" data-disable-with="Dawood,Al-Janaby" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="MD33rz5EmYjPp4qkT5xWEtUgLMtN8TEmnSztO0_geUIJfUQAEHgUYI9WwsvvkePeLlbESQxjc-XyeF-XJ2oVfQ" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942841" autocomplete="off" />
+                <input type="submit" name="commit" value="Eric,Hanson" data-confirm="Are you sure that you want to select the identifier Eric,Hanson?" data-disable-with="Eric,Hanson" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="eaPmV6EfGmQFohxFDTki52jcLp7wesLaTt-qvlphcxFA41X4jyOXjEVTVCqtNJcrk6rGHLHogBkhixgSMusfLg" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942834" autocomplete="off" />
+                <input type="submit" name="commit" value="Farbod,Forouhar" data-confirm="Are you sure that you want to select the identifier Farbod,Forouhar?" data-disable-with="Farbod,Forouhar" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="oOno4TokmAws-H_nCHGVrX18Wg6pJuDjmKmZS_fPhmiZqVtOFBgV5GwJN4iofCBhhgqyjOi0oiD3_Svnn0XqVw" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942837" autocomplete="off" />
+                <input type="submit" name="commit" value="Gurshaan,Gill" data-confirm="Are you sure that you want to select the identifier Gurshaan,Gill?" data-disable-with="Gurshaan,Gill" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="D8YCKCWcqeVEK_djVnYnldWOq2E-dk2BfFr65xDfE442hrGHC6AkDQTavwz2e5JZLvhD43_kD0ITDkhLeFV_sQ" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942821" autocomplete="off" />
+                <input type="submit" name="commit" value="Harneet,Arri" data-confirm="Are you sure that you want to select the identifier Harneet,Arri?" data-disable-with="Harneet,Arri" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="oycSXKUqCKMNEe21iKw50j0AkeYBxz4SaR4NGiHWb8-aZ6HzixaFS03gpdoooYwexnZ5ZEBVfNEGSr-2SVwD8A" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942878" autocomplete="off" />
+                <input type="submit" name="commit" value="Himanshi,Verma" data-confirm="Are you sure that you want to select the identifier Himanshi,Verma?" data-disable-with="Himanshi,Verma" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="vx9rxzEVB1LGkssJRzyINMD4s2hsZUftDLRqZKU-49aGX9hoHymKuoZjg2bnMT34O45b6i33BS5j4NjIzbSP6Q" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942850" autocomplete="off" />
+                <input type="submit" name="commit" value="Jacob,Kavanagh" data-confirm="Are you sure that you want to select the identifier Jacob,Kavanagh?" data-disable-with="Jacob,Kavanagh" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="MDnPR4tEVD1n4TQn5mTLVGu8JIGU2kMOknTwLJURXZMJeXzopXjZ1ScQfEhGaX6YkMrMA9VIAc39IEKA_ZsxrA" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942851" autocomplete="off" />
+                <input type="submit" name="commit" value="Jeduson,Kawleswaran" data-confirm="Are you sure that you want to select the identifier Jeduson,Kawleswaran?" data-disable-with="Jeduson,Kawleswaran" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="x1j8YsSsAb8rKwxN8f0lRcHz6XE3DRY8FzEtlAqeRWv-GE_N6pCMV2vaRCJR8JCJOoUB83afVP94ZZ84YhQpVA" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942879" autocomplete="off" />
+                <input type="submit" name="commit" value="Jeffrey,Watson" data-confirm="Are you sure that you want to select the identifier Jeffrey,Watson?" data-disable-with="Jeffrey,Watson" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="PRHYmmfG_EGUva2tYdeS9xVa_UNRaCwbUyhwEiO-gaQEUWs1SfpxqdRM5cLB2ic77iwVwRD6btg8fMK-SzTtmw" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942819" autocomplete="off" />
+                <input type="submit" name="commit" value="Kabir,Amin" data-confirm="Are you sure that you want to select the identifier Kabir,Amin?" data-disable-with="Kabir,Amin" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="qlwlxqbr1PFip2YRXA3g5UFNeSHYh-s5AQTrFy3WNrGTHJZpiNdZGSJWLn78AFUpujuRo5kVqfpuUFm7RVxajg" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942869" autocomplete="off" />
+                <input type="submit" name="commit" value="Kartik,Sharma" data-confirm="Are you sure that you want to select the identifier Kartik,Sharma?" data-disable-with="Kartik,Sharma" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="omnx5Ich0mJ2jiOvsOsbdSywkhqgJvmN5vGaOvWKTkibKUJLqR1fijZ_a8AQ5q6518Z6mOG0u06JpSiWnQAidw" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942844" autocomplete="off" />
+                <input type="submit" name="commit" value="Katelyn,Hopkins" data-confirm="Are you sure that you want to select the identifier Katelyn,Hopkins?" data-disable-with="Katelyn,Hopkins" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="YCYJFWsINw80fdvtYoDxddj3PXyK5GgMKHA9MYR4jLdZZrq6RTS653SMk4LCjUS5I4HV_st2Ks9HJI-d7PLgiA" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942881" autocomplete="off" />
+                <input type="submit" name="commit" value="Mehrshad,Zarastounia" data-confirm="Are you sure that you want to select the identifier Mehrshad,Zarastounia?" data-disable-with="Mehrshad,Zarastounia" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="FrDd2uu0SYqjZYXwRAtLZJIrHQwv0a9SE6nEwF3NGCIv8G51xYjEYuOUzZ_kBv6oaV31jm5D7ZF8_XZsNUd0HQ" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942866" autocomplete="off" />
+                <input type="submit" name="commit" value="Omar,Sabbour" data-confirm="Are you sure that you want to select the identifier Omar,Sabbour?" data-disable-with="Omar,Sabbour" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="uzX__ybBOisp99IAfPCFE2PvdE7SAgfVaWMOcN0ztTmCdUxQCP23w2kGmm_c_TDfmJmczJOQRRYGN7zctbnZBg" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942830" autocomplete="off" />
+                <input type="submit" name="commit" value="Prabina,Dhakal" data-confirm="Are you sure that you want to select the identifier Prabina,Dhakal?" data-disable-with="Prabina,Dhakal" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="qzfZPHs07T7fOJp9pRPESoEZdVWWt-Tt-LdokcMFSdySd2qTVQhg1p_J0hIFHnGGem-d19clpi6X49o9q48l4w" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942838" autocomplete="off" />
+                <input type="submit" name="commit" value="Raha,Golsorkhi" data-confirm="Are you sure that you want to select the identifier Raha,Golsorkhi?" data-disable-with="Raha,Golsorkhi" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="GCCp7WMCd2n2AupTTUHFzaltIbsD3YWLEv6mT_VnbbchYBpCTT76gbbzojztTHABUhvJOUJPx0h9qhTjne0BiA" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942846" autocomplete="off" />
+                <input type="submit" name="commit" value="Reuben,Jaicks" data-confirm="Are you sure that you want to select the identifier Reuben,Jaicks?" data-disable-with="Reuben,Jaicks" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="Om5y78Cjhh6mTnFNKj4u9VFBX-V1iSfpaCLxz1owa9kDLsFA7p8L9ua_OSKKM5s5qje3ZzQbZSoHdkNjMroH5g" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942865" autocomplete="off" />
+                <input type="submit" name="commit" value="Rima,Ramcharan" data-confirm="Are you sure that you want to select the identifier Rima,Ramcharan?" data-disable-with="Rima,Ramcharan" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="wvsAYVWyFfXGCvcfhjhburep8rJtskiNwJdqQmsYCan7u7POe46YHYb7v3AmNe52TN8aMCwgCk6vw9juA5Jllg" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942817" autocomplete="off" />
+                <input type="submit" name="commit" value="Saif,Alaleeli" data-confirm="Are you sure that you want to select the identifier Saif,Alaleeli?" data-disable-with="Saif,Alaleeli" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="X-iS-gwYcSocFIeg44VLxr13FRASHNEcfpDiwXoxTLZmqCFVIiT8wlzlz89DiP4KRgH9klOOk98RxFBtErsgiQ" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942849" autocomplete="off" />
+                <input type="submit" name="commit" value="Shadi,Karimpour" data-confirm="Are you sure that you want to select the identifier Shadi,Karimpour?" data-disable-with="Shadi,Karimpour" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="kVtFTM4Snw1K-ZLGAw_Z39b_Ib7i_0Axa1DERa1ClzeoG_bj4C4S5QoI2qmjAmwTLYnJPKNtAvIEBHbpxcj7CA" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942829" autocomplete="off" />
+                <input type="submit" name="commit" value="Shayan,Darajeh" data-confirm="Are you sure that you want to select the identifier Shayan,Darajeh?" data-disable-with="Shayan,Darajeh" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="Sjwf5eAmutDqmh2ujzl5MT9xWd8r-hlfWk-pbjK-nB9zfKxKzho3OKprVcEvNMz9xAexXWpoW5w1GxvCWjTwIA" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942860" autocomplete="off" />
+                <input type="submit" name="commit" value="Sheila,Mauka" data-confirm="Are you sure that you want to select the identifier Sheila,Mauka?" data-disable-with="Sheila,Mauka" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="rv1FCNXJJcCpfAF92KwdVxSIJKC4PTnqiqA8a8OseTqXvfan-_WoKOmNSRJ4oaib7_7MIvmveynl9I7HqyYVBQ" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942839" autocomplete="off" />
+                <input type="submit" name="commit" value="Shivam,Gupta" data-confirm="Are you sure that you want to select the identifier Shivam,Gupta?" data-disable-with="Shivam,Gupta" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="88eC4BPWJ1RgQGUXWpfbp_o2dxOTuw9GiwG2t2ClAW_KhzFPPeqqvCCxLXj6mm5rAUCfkdIpTYXkVQQbCC9tUA" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942870" autocomplete="off" />
+                <input type="submit" name="commit" value="Svastik,Sharma" data-confirm="Are you sure that you want to select the identifier Svastik,Sharma?" data-disable-with="Svastik,Sharma" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="6ZmhBrY1MsFy0xiHH6g2577rANeWWMZLLMoVumy-cgXQ2RKpmAm_KTIiUOi_pYMrRZ3oVdfKhIhDnqcWBDQeOg" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942877" autocomplete="off" />
+                <input type="submit" name="commit" value="Taha,Usama" data-confirm="Are you sure that you want to select the identifier Taha,Usama?" data-disable-with="Taha,Usama" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+            <div class="menu-item px-2 py-1">
+              <form action="/assignment-invitations/561775a61cea8335d6291e38d7314178/join_roster" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="K6pEfVhI4RM-l2EXkxPsU6SQtIvBa-FMczZgeQh52VUS6vfSdnRs-35mKXgzHlmfX-ZcCYD5o48cYtLVYPO1ag" autocomplete="off" />
+                <input type="hidden" name="roster_entry_id" id="roster_entry_id" value="3942875" autocomplete="off" />
+                <input type="submit" name="commit" value="Tashi,Topgyal" data-confirm="Are you sure that you want to select the identifier Tashi,Topgyal?" data-disable-with="Tashi,Topgyal" class="width-full height-full p-2 text-left mb-0 border-0" style="background:transparent;cursor:pointer" />
+                <svg class="octicon octicon-chevron-right float-right color-fg-muted" style="margin-top: -24px;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg>
+</form>            </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+      </div>
+    </main>
+
+    <script src="/assets/application-21505e6813bb7d09a560f3cdb0271554896c48e9a5ec6b6a7d8525eccc22a7a1.js"></script>
+  </body>
+</html>
+‘ƒ-}           in\*IJ½in\*   }    O^partitionKey=%28https%2Cgithub.com%29,:https://classroom.github.com/assignment-invitations/561775a61cea8335d6291e38d7314178 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+server: GitHub.com
+date: Mon, 19 Jan 2026 16:30:34 GMT
+content-type: text/html; charset=utf-8
+content-length: 51786
+referrer-policy: strict-origin-when-cross-origin
+x-robots-tag: noindex, nofollow
+link: </assets/application-7bff83670345a1b619e699d715570f4e6b6534408b7ad58a6a76852f4ef09711.css>; rel=preload; as=style; nopush,</assets/application-21505e6813bb7d09a560f3cdb0271554896c48e9a5ec6b6a7d8525eccc22a7a1.js>; rel=preload; as=script; nopush
+etag: W/"d035f80055b954ab72d6165c3a43879d"
+cache-control: max-age=0, private, must-revalidate
+x-runtime: 0.172823
+strict-transport-security: max-age=631138519
+x-frame-options: sameorigin
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+content-security-policy: default-src https: 'self'; connect-src 'self' github.com *.github.com https://www.youtube.com https://s.ytimg.com https://www.google-analytics.com wss:; img-src 'self' data: *.githubusercontent.com *.github.com https://www.google-analytics.com https://i.ytimg.com; script-src 'self' https://www.youtube.com https://s.ytimg.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'
+x-github-backend: Kubernetes
+x-github-request-id: CB0A:364E8D:495E948:5A597E2:696E5C29
+X-Firefox-Spdy: h2
+ original-response-headers server: GitHub.com
+date: Mon, 19 Jan 2026 16:30:34 GMT
+content-type: text/html; charset=utf-8
+content-length: 51786
+referrer-policy: strict-origin-when-cross-origin
+x-robots-tag: noindex, nofollow
+link: </assets/application-7bff83670345a1b619e699d715570f4e6b6534408b7ad58a6a76852f4ef09711.css>; rel=preload; as=style; nopush,</assets/application-21505e6813bb7d09a560f3cdb0271554896c48e9a5ec6b6a7d8525eccc22a7a1.js>; rel=preload; as=script; nopush
+etag: W/"d035f80055b954ab72d6165c3a43879d"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: _github_classroom_session=2IFUDmPsg%2BbZsSCwLVqXXJtt8LvYRGH9uahMNc9vDsj2oNfOJnPf87Nbg5mOQL7KCnn257MVzFgGxBacAbWK9bRtKRBCPaJPDHya7PhsKa0J9%2FrwqrwzjTIrfialnZSes2hRyqlHRJkJCnxx8u%2BGPHMBu8QlbQF2sx0t26MqWawgFrvHZ6g6F3z97aluPwOKXgSZeQfV5ATh9pjIX%2B7Y%2FOKcYz0KtaUIK9vOCejxMP9TXz7r1%2FJvfEe%2FKsL3WyLmbzmk1nBDqoLrVZrt2sOUgZbdGZbCP0TXh%2FaoWNxfNdnHJ6v9pRpSVyxLOhU%2FRt2aqsFLYqKQitmJpWtkOUMRXiprD7D8HxSwNiHgCBwFFetW%2B6nZfmBZObS6Uar%2F9pXmMJTCTnkFU1INdVWOGQdIiA2sh4jYDN46PxUHtWJ%2FIvxFZUOg87n3H3FQZMSodiAeeJ94hZbLVc1UBuMkYYRQNQUNozZXAWNN1cBj62taH9RiO20G7NlZt2O89W%2F5tjCwyHf2f9RFx6se%2BvP1JX4jsHnycEul9nNNRDsVXsQGmG4bnRJOMh7YFsH%2B6HIcqAbpV1tcvu%2Bj0BgeTIarFIQ0nylLoC8yg%2FkoxrQIA4eYTABdX9ZLmqnfSFd%2FuC%2BEDBG3at2qyn67yVCpGaPJsfsJs7%2F6Ez5NbqbRHPAXuAKVSZJrpFpkq4TyHPZ69hVjukNZgdh%2BAH2abxyCCJpaBWhn8XzqrsDzbsAQ%2Bx6pjK8%3D--gXUJr%2BAdiMWDu8aQ--AmuoB646Scw6RSSuMi0lpQ%3D%3D; path=/; HttpOnly; SameSite=Lax; secure
+x-runtime: 0.172823
+strict-transport-security: max-age=631138519
+x-frame-options: sameorigin
+x-content-type-options: nosniff
+x-xss-protection: 0
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+content-security-policy: default-src https: 'self'; connect-src 'self' github.com *.github.com https://www.youtube.com https://s.ytimg.com https://www.google-analytics.com wss:; img-src 'self' data: *.githubusercontent.com *.github.com https://www.google-analytics.com https://i.ytimg.com; script-src 'self' https://www.youtube.com https://s.ytimg.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'
+x-github-backend: Kubernetes
+x-github-request-id: CB0A:364E8D:495E948:5A597E2:696E5C29
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0   ÊJ

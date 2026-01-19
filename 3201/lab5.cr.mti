@@ -1,0 +1,29 @@
+/eecs/home/mattg77/3201/test2_tb.v {1 {vlog -work work -stats=none /eecs/home/mattg77/3201/test2_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test2_tb
+
+Top level modules:
+	test2_tb
+
+} {} {}} /eecs/home/mattg77/3201/test1.v {1 {vlog -work work -stats=none /eecs/home/mattg77/3201/test1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test1
+
+Top level modules:
+	test1
+
+} {} {}} /eecs/home/mattg77/3201/test2.v {1 {vlog -work work -stats=none /eecs/home/mattg77/3201/test2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test2
+
+Top level modules:
+	test2
+
+} {} {}} /eecs/home/mattg77/3201/test1_tb.v {1 {vlog -work work -stats=none /eecs/home/mattg77/3201/test1_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test1_tb
+
+Top level modules:
+	test1_tb
+
+} {} {}}

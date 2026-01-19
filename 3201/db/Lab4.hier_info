@@ -1,0 +1,90 @@
+|top_module
+CLOCK_50 => CLOCK_50.IN1
+KEY[0] => KEY[0].IN1
+KEY[1] => KEY[1].IN1
+SW0 => SW0.IN1
+HEX0[0] << shot_clock:u_clock.ones
+HEX0[1] << shot_clock:u_clock.ones
+HEX0[2] << shot_clock:u_clock.ones
+HEX0[3] << shot_clock:u_clock.ones
+HEX0[4] << shot_clock:u_clock.ones
+HEX0[5] << shot_clock:u_clock.ones
+HEX0[6] << shot_clock:u_clock.ones
+HEX1[0] << shot_clock:u_clock.tens
+HEX1[1] << shot_clock:u_clock.tens
+HEX1[2] << shot_clock:u_clock.tens
+HEX1[3] << shot_clock:u_clock.tens
+HEX1[4] << shot_clock:u_clock.tens
+HEX1[5] << shot_clock:u_clock.tens
+HEX1[6] << shot_clock:u_clock.tens
+
+
+|top_module|ClockDivider:u_div
+cin => cout~reg0.CLK
+cin => count[0].CLK
+cin => count[1].CLK
+cin => count[2].CLK
+cin => count[3].CLK
+cin => count[4].CLK
+cin => count[5].CLK
+cin => count[6].CLK
+cin => count[7].CLK
+cin => count[8].CLK
+cin => count[9].CLK
+cin => count[10].CLK
+cin => count[11].CLK
+cin => count[12].CLK
+cin => count[13].CLK
+cin => count[14].CLK
+cin => count[15].CLK
+cin => count[16].CLK
+cin => count[17].CLK
+cin => count[18].CLK
+cin => count[19].CLK
+cin => count[20].CLK
+cin => count[21].CLK
+cin => count[22].CLK
+cin => count[23].CLK
+cin => count[24].CLK
+cin => count[25].CLK
+cin => count[26].CLK
+cin => count[27].CLK
+cin => count[28].CLK
+cin => count[29].CLK
+cin => count[30].CLK
+cin => count[31].CLK
+cout <= cout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|shot_clock:u_clock
+clk_1hz => count_val[0].CLK
+clk_1hz => count_val[1].CLK
+clk_1hz => count_val[2].CLK
+clk_1hz => count_val[3].CLK
+clk_1hz => count_val[4].CLK
+clk_1hz => count_val[5].CLK
+reset_n => count_val[0].ACLR
+reset_n => count_val[1].ALOAD
+reset_n => count_val[2].ALOAD
+reset_n => count_val[3].PRESET
+reset_n => count_val[4].PRESET
+reset_n => count_val[5].ACLR
+pause_n => paused.CLK
+mode => count_val[2].ADATA
+mode => count_val[1].ADATA
+ones[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ones[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ones[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ones[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ones[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ones[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ones[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+tens[0] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+tens[1] <= Decoder4.DB_MAX_OUTPUT_PORT_TYPE
+tens[2] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+tens[3] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+tens[4] <= Decoder3.DB_MAX_OUTPUT_PORT_TYPE
+tens[5] <= Decoder2.DB_MAX_OUTPUT_PORT_TYPE
+tens[6] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,4 @@
+
+[Default Applications]
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_pkgcache_eclipse-4.32_.desktop
+x-scheme-handler/eclipse+mpc x-scheme-handler/eclipse+command=_pkgcache_eclipse-4.32_.desktop

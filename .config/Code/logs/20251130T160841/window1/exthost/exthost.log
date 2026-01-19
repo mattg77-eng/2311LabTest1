@@ -1,0 +1,22 @@
+2025-11-30 16:08:44.088 [info] Extension host with pid 2825657 started
+2025-11-30 16:08:44.161 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-30 16:08:44.253 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-30 16:08:44.277 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-30 16:08:44.357 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-30 16:08:44.485 [info] Eager extensions activated
+2025-11-30 16:08:44.566 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-30 16:08:44.568 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-30 16:08:49.950 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-30 16:08:49.955 [info] Extension host with pid 2825657 exiting with code 0
+2025-11-30 16:08:51.989 [info] Extension host with pid 2825894 started
+2025-11-30 16:08:51.989 [info] Skipping acquiring lock for /cs/home/mattg77/.config/Code/User/workspaceStorage/78c256822631df59fae3c1a58ce79e1b.
+2025-11-30 16:08:52.163 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-30 16:08:52.194 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-30 16:08:52.198 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-30 16:08:52.236 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-30 16:08:52.341 [info] Eager extensions activated
+2025-11-30 16:08:52.342 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-30 16:08:52.343 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-30 16:08:52.961 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-30 16:11:59.150 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-30 16:11:59.155 [info] Extension host with pid 2825894 exiting with code 0

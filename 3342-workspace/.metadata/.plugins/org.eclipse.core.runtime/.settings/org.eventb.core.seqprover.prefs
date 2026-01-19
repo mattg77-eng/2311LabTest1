@@ -1,0 +1,13 @@
+autoTacticChecker/com.clearsy.atelierb.provers.core.ml=com.clearsy.atelierb.provers.core\:1.6.0.r16736
+autoTacticChecker/com.clearsy.atelierb.provers.core.p0=com.clearsy.atelierb.provers.core\:1.6.0.r16736
+autoTacticChecker/com.clearsy.atelierb.provers.core.p1=com.clearsy.atelierb.provers.core\:1.6.0.r16736
+autoTacticChecker/com.clearsy.atelierb.provers.core.pp=com.clearsy.atelierb.provers.core\:1.6.0.r16736
+autoTacticChecker/org.eventb.pp.ppLasoo=org.eventb.pp\:0.9.0.202204290954-46a4e4e99
+autoTacticChecker/org.eventb.pp.ppRestricted=org.eventb.pp\:0.9.0.202204290954-46a4e4e99
+autoTacticChecker/org.eventb.pp.ppUnrestricted=org.eventb.pp\:0.9.0.202204290954-46a4e4e99
+autoTacticChecker/org.eventb.smt.core.autoTactic=org.eventb.smt.core\:1.4.0.c5fa8c25
+autoTacticChecker/org.eventb.smt.core.config.CVC3=org.eventb.smt.core\:1.4.0.c5fa8c25
+autoTacticChecker/org.eventb.smt.core.config.CVC4=org.eventb.smt.core\:1.4.0.c5fa8c25
+autoTacticChecker/org.eventb.smt.core.config.Z3=org.eventb.smt.core\:1.4.0.c5fa8c25
+autoTacticChecker/org.eventb.smt.core.config.veriT=org.eventb.smt.core\:1.4.0.c5fa8c25
+eclipse.preferences.version=1

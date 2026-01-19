@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 07 11:45:53 EST 2026
+checker-compat-qual-2.5.5-sources.jar>central=
+checker-compat-qual-2.5.5.jar>central=
+checker-compat-qual-2.5.5.pom>central=

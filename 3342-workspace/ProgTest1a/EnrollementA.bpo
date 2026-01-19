@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poIdentifier name="COURSE" org.eventb.core.type="ℙ(COURSE)"/>
+        <org.eventb.core.poIdentifier name="STUDENT" org.eventb.core.type="ℙ(STUDENT)"/>
+        <org.eventb.core.poIdentifier name="PROFESSOR" org.eventb.core.type="ℙ(PROFESSOR)"/>
+        <org.eventb.core.poIdentifier name="MAX" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="eecs4315" org.eventb.core.type="COURSE"/>
+        <org.eventb.core.poIdentifier name="eecs4480" org.eventb.core.type="COURSE"/>
+        <org.eventb.core.poIdentifier name="RULE" org.eventb.core.type="ℙ(COURSE×COURSE)"/>
+        <org.eventb.core.poPredicate name="PROFESSOS" org.eventb.core.predicate="MAX∈ℕ1" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#."/>
+        <org.eventb.core.poPredicate name="PROFESSOT" org.eventb.core.predicate="finite(STUDENT)" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#\/"/>
+        <org.eventb.core.poPredicate name="PROFESSOU" org.eventb.core.predicate="finite(COURSE)" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#0"/>
+        <org.eventb.core.poPredicate name="PROFESSOV" org.eventb.core.predicate="finite(PROFESSOR)" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#1"/>
+        <org.eventb.core.poPredicate name="PROFESSOW" org.eventb.core.predicate="eecs4315∈COURSE∧eecs4480∈COURSE" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#2"/>
+        <org.eventb.core.poPredicate name="PROFESSOX" org.eventb.core.predicate="RULE∈COURSE ↔ COURSE" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#3"/>
+        <org.eventb.core.poPredicate name="PROFESSOY" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#4"/>
+        <org.eventb.core.poPredicate name="PROFESSOZ" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#5"/>
+        <org.eventb.core.poPredicate name="PROFESSO[" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#6"/>
+        <org.eventb.core.poPredicate name="PROFESSO\" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#7"/>
+        <org.eventb.core.poPredicate name="PROFESSO]" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest1a/C0A.buc|org.eventb.core.contextFile#C0A|org.eventb.core.axiom#8"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/ProgTest1a/EnrollementA.bpo|org.eventb.core.poFile#EnrollementA|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPC0E" org.eventb.core.parentSet="/ProgTest1a/EnrollementA.bpo|org.eventb.core.poFile#EnrollementA|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/ProgTest1a/EnrollementA.bpo|org.eventb.core.poFile#EnrollementA|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest1a/EnrollementA.bum|org.eventb.core.machineFile#EnrollementA|org.eventb.core.invariant#+"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest1a/EnrollementA.bum|org.eventb.core.machineFile#EnrollementA|org.eventb.core.invariant#,"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="⊤" org.eventb.core.source="/ProgTest1a/EnrollementA.bum|org.eventb.core.machineFile#EnrollementA|org.eventb.core.invariant#-"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

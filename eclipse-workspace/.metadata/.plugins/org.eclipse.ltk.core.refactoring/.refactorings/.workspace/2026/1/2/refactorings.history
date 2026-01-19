@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;EECS2101E_S25_A4&apos;" deleteContents="false" description="Delete resource &apos;EECS2101E_S25_A4&apos;" element1="/EECS2101E_S25_A4" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1767803687123"/>
+</session>

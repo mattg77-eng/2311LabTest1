@@ -1,0 +1,116 @@
+# Loading project lab5
+# bad option "GetRegisteredFile": should be one of...
+#   .main_pane.source Activate ?arg arg ...?
+#   .main_pane.source AddDedicatedTb
+#   .main_pane.source AddDefaultMenu menu_bar
+#   .main_pane.source AddDefaultToolbar toolbar
+#   .main_pane.source AddHeaderIcon
+#   .main_pane.source AnimateImage
+#   .main_pane.source ClearData
+#   .main_pane.source DataExist varName
+#   .main_pane.source DataRef varName
+#   .main_pane.source Deactivate
+#   .main_pane.source DelayedAnimation ?arg arg ...?
+#   .main_pane.source DestroyDedicatedTb
+#   .main_pane.source Dock
+#   .main_pane.source DumpAll where
+#   .main_pane.source DumpData where
+#   .main_pane.source FindSubWidget w
+#   .main_pane.source FindSubWidgetRecursive w
+#   .main_pane.source FrameName
+#   .main_pane.source GetBody
+#   .main_pane.source GetClientFooter
+#   .main_pane.source GetData ?name?
+#   .main_pane.source GetDedicatedTbPath
+#   .main_pane.source GetMenuBar
+#   .main_pane.source GetRegisteredChild
+#   .main_pane.source GetRegisteredView
+#   .main_pane.source GetTabIcon
+#   .main_pane.source GetToolbar
+#   .main_pane.source GetUndockGeom
+#   .main_pane.source GetUndockGeomHistory
+#   .main_pane.source HeaderIcon
+#   .main_pane.source HideDedicatedTb
+#   .main_pane.source IsActivated ?arg arg ...?
+#   .main_pane.source IsIconified
+#   .main_pane.source IsViable
+#   .main_pane.source PageSelected
+#   .main_pane.source RemoveData name
+#   .main_pane.source RemoveHeaderIcon
+#   .main_pane.source Reset
+#   .main_pane.source ResetBody
+#   .main_pane.source SetData name value
+#   .main_pane.source SetMaxButtonIcon
+#   .main_pane.source SetTabIcon tab
+#   .main_pane.source SetUndockGeom geom
+#   .main_pane.source SetUndockGeomHistory geom
+#   .main_pane.source ShowDedicatedTb
+#   .main_pane.source StopAnimateImage
+#   .main_pane.source SubWidgetActivate
+#   .main_pane.source SubWidgetDeActivate
+#   .main_pane.source TabLabel
+#   .main_pane.source TestCallBacks
+#   .main_pane.source TestForCallBack callback
+#   .main_pane.source Title
+#   .main_pane.source ToggleDedicatedTb
+#   .main_pane.source UnDock
+#   .main_pane.source UpdateText
+#   .main_pane.source WindowClosing
+#   .main_pane.source WindowInTransition
+#   .main_pane.source WindowOpening
+#   .main_pane.source WindowUnDocked
+#   .main_pane.source _Dock
+#   .main_pane.source _UnDock
+#   .main_pane.source _dump_queue
+#   .main_pane.source _hidecommand_
+#   .main_pane.source _trigger_show_cmd W ?general_update?
+#   .main_pane.source cget option
+#   .main_pane.source childsite
+#   .main_pane.source component ?name? ?arg arg ...?
+#   .main_pane.source config ?option? ?arg arg ...?
+#   .main_pane.source configure ?option? ?arg arg ...?
+#   .main_pane.source invoke what
+#   .main_pane.source isa className
+#   .main_pane.source itk_component option ?arg arg ...?
+#   .main_pane.source itk_initialize ?arg arg ...?
+#   .main_pane.source itk_option option ?arg arg ...?
+#   .main_pane.source winInside w
+# Compile of test2_tb.v was successful.
+# Compile of test1_tb.v was successful.
+# Compile of test1.v was successful.
+# Compile of test2.v was successful.
+# 4 compiles, 0 failed with no errors.
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# Compile of test2_tb.v was successful.
+# Compile of test1_tb.v was successful.
+# Compile of test1.v was successful.
+# Compile of test2.v was successful.
+# 4 compiles, 0 failed with no errors.
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+vsim work.test1_tb
+# vsim work.test1_tb 
+# Start time: 21:23:32 on Nov 25,2025
+# Loading work.test1_tb
+# Loading work.test1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint  \
+sim:/test1_tb/a \
+sim:/test1_tb/b \
+sim:/test1_tb/c \
+sim:/test1_tb/x \
+sim:/test1_tb/y
+run 200 ns
+# All outputs are zero at time 0
+# ** Note: $finish    : /eecs/home/mattg77/3201/test1_tb.v(40)
+#    Time: 185 ns  Iteration: 0  Instance: /test1_tb
+# End time: 21:26:59 on Nov 25,2025, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 0

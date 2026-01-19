@@ -1,0 +1,316 @@
+[2024-11-11T14:08:51.431-0500] [INFO ] Socket 14: connection accepted from AF_UNIX
+[2024-11-11T14:08:51.433-0500] [INFO ] sound_process_output_format:
+[2024-11-11T14:08:51.433-0500] [INFO ]       wFormatNo       0
+[2024-11-11T14:08:51.434-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-11T14:08:51.434-0500] [INFO ]       nChannels       2
+[2024-11-11T14:08:51.434-0500] [INFO ]       nSamplesPerSec  44100
+[2024-11-11T14:08:51.434-0500] [INFO ]       nAvgBytesPerSec 176400
+[2024-11-11T14:08:51.434-0500] [INFO ]       nBlockAlign     4
+[2024-11-11T14:08:51.434-0500] [INFO ]       wBitsPerSample  16
+[2024-11-11T14:08:51.435-0500] [INFO ]       cbSize          0
+[2024-11-11T14:08:51.435-0500] [INFO ] sound_process_output_format:
+[2024-11-11T14:08:51.435-0500] [INFO ]       wFormatNo       1
+[2024-11-11T14:08:51.435-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-11T14:08:51.435-0500] [INFO ]       nChannels       2
+[2024-11-11T14:08:51.435-0500] [INFO ]       nSamplesPerSec  22050
+[2024-11-11T14:08:51.436-0500] [INFO ]       nAvgBytesPerSec 88200
+[2024-11-11T14:08:51.436-0500] [INFO ]       nBlockAlign     4
+[2024-11-11T14:08:51.436-0500] [INFO ]       wBitsPerSample  16
+[2024-11-11T14:08:51.436-0500] [INFO ]       cbSize          0
+[2024-11-11T14:08:51.438-0500] [INFO ] sound_process_training: round trip time 2
+[2024-11-11T14:09:35.736-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:35.739-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:35.740-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:09:35.740-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:09:35.816-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:35.836-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:09:35.969-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:35.970-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:35.970-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:35.971-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:35.971-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:09:35.971-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:09:35.972-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:09:36.754-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:36.763-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:09:43.209-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:09:43.210-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:15:36.627-0500] [INFO ] Socket 18: connection accepted from AF_UNIX
+[2024-11-11T14:23:35.275-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:35.275-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:35.276-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:36.801-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:36.801-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:36.802-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:37.636-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:37.636-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:37.637-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:37.876-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:37.876-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:37.877-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:46.314-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:46.315-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:46.316-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:47.135-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:47.135-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:47.136-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:47.332-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:47.332-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:47.333-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:47.497-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:47.497-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:47.498-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:47.656-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:47.657-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:47.657-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:47.809-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:47.809-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:47.810-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:47.952-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:47.953-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:47.953-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:48.979-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:48.983-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:48.988-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:48.233-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:48.234-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:48.234-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:48.371-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:48.372-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:48.372-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:23:48.529-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:23:48.530-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:23:48.530-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:24:17.353-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:24:17.353-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:24:17.353-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:24:17.353-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:24:17.359-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:24:17.359-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:24:17.359-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:24:17.359-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:24:17.360-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:24:17.360-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:24:18.993-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:24:18.995-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:24:18.996-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:24:48.392-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:24:48.393-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:07.707-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:07.708-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:07.709-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:08.160-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:08.160-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:08.161-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:08.377-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:08.378-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:08.379-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:08.558-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:08.559-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:08.560-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:08.710-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:08.710-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:08.711-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:08.872-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:08.873-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:08.874-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:09.302-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:09.309-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:09.315-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:09.177-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:09.180-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:09.181-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:09.327-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:09.328-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:09.329-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:09.478-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:09.479-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:09.480-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:09.635-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:09.635-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:09.636-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:09.787-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:09.788-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:09.789-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:09.938-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:09.939-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:09.940-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:10.884-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:10.892-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:10.899-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:10.265-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:10.265-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:10.266-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:10.450-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:10.451-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:10.452-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:10.615-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:10.616-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:10.616-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:10.778-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:10.779-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:10.780-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:10.938-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:10.939-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:10.940-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:11.115-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:11.116-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:11.117-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:11.298-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:11.298-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:11.299-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:11.465-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:11.466-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:11.467-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:12.123-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:12.124-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:12.124-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:12.628-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:12.628-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:12.629-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:12.629-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:12.629-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:12.630-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:12.743-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:12.743-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:12.744-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:12.927-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:12.928-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:12.929-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:13.108-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:13.109-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:13.110-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:13.284-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:13.285-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:13.286-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:13.471-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:13.472-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:13.473-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:13.655-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:13.656-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:13.657-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:25:13.830-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:25:13.830-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:25:13.831-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:27:19.271-0500] [INFO ] Socket 16: connection accepted from AF_UNIX
+[2024-11-11T14:27:19.272-0500] [INFO ] sound_process_output_format:
+[2024-11-11T14:27:19.273-0500] [INFO ]       wFormatNo       0
+[2024-11-11T14:27:19.273-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-11T14:27:19.273-0500] [INFO ]       nChannels       2
+[2024-11-11T14:27:19.273-0500] [INFO ]       nSamplesPerSec  44100
+[2024-11-11T14:27:19.273-0500] [INFO ]       nAvgBytesPerSec 176400
+[2024-11-11T14:27:19.274-0500] [INFO ]       nBlockAlign     4
+[2024-11-11T14:27:19.274-0500] [INFO ]       wBitsPerSample  16
+[2024-11-11T14:27:19.274-0500] [INFO ]       cbSize          0
+[2024-11-11T14:27:19.274-0500] [INFO ] sound_process_output_format:
+[2024-11-11T14:27:19.274-0500] [INFO ]       wFormatNo       1
+[2024-11-11T14:27:19.275-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-11T14:27:19.275-0500] [INFO ]       nChannels       2
+[2024-11-11T14:27:19.275-0500] [INFO ]       nSamplesPerSec  22050
+[2024-11-11T14:27:19.275-0500] [INFO ]       nAvgBytesPerSec 88200
+[2024-11-11T14:27:19.275-0500] [INFO ]       nBlockAlign     4
+[2024-11-11T14:27:19.276-0500] [INFO ]       wBitsPerSample  16
+[2024-11-11T14:27:19.276-0500] [INFO ]       cbSize          0
+[2024-11-11T14:27:19.284-0500] [INFO ] sound_process_training: round trip time 7
+[2024-11-11T14:29:36.712-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:36.713-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:36.714-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:37.554-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:37.560-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:37.567-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:37.255-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:37.256-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:37.257-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:37.418-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:37.419-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:37.419-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:37.584-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:37.585-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:37.587-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:37.994-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:37.995-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:37.996-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:38.250-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:38.250-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:38.251-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:38.453-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:38.453-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:38.454-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:38.679-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:38.680-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:38.680-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:38.906-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:38.907-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:38.907-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:39.793-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:39.793-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:39.794-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:50.923-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:50.923-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:50.924-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:51.200-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:51.200-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:51.201-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:51.383-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:51.383-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:51.384-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:51.535-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:51.535-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:51.536-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:51.685-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:51.685-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:51.686-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:51.834-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:51.834-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:51.835-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:51.970-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:51.970-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:51.971-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:52.120-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:52.120-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:52.121-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:29:52.279-0500] [ERROR] clipboard_event_selection_request: unknown target GTK_TEXT_BUFFER_CONTENTS
+[2024-11-11T14:29:52.280-0500] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8
+[2024-11-11T14:29:52.280-0500] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[2024-11-11T14:54:14.880-0500] [INFO ] Socket 18: connection accepted from AF_UNIX
+[2024-11-11T15:06:14.460-0500] [INFO ] Socket 16: connection accepted from AF_UNIX
+[2024-11-11T15:06:14.461-0500] [INFO ] sound_process_output_format:
+[2024-11-11T15:06:14.461-0500] [INFO ]       wFormatNo       0
+[2024-11-11T15:06:14.462-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-11T15:06:14.462-0500] [INFO ]       nChannels       2
+[2024-11-11T15:06:14.462-0500] [INFO ]       nSamplesPerSec  44100
+[2024-11-11T15:06:14.463-0500] [INFO ]       nAvgBytesPerSec 176400
+[2024-11-11T15:06:14.463-0500] [INFO ]       nBlockAlign     4
+[2024-11-11T15:06:14.463-0500] [INFO ]       wBitsPerSample  16
+[2024-11-11T15:06:14.463-0500] [INFO ]       cbSize          0
+[2024-11-11T15:06:14.463-0500] [INFO ] sound_process_output_format:
+[2024-11-11T15:06:14.463-0500] [INFO ]       wFormatNo       1
+[2024-11-11T15:06:14.464-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-11T15:06:14.464-0500] [INFO ]       nChannels       2
+[2024-11-11T15:06:14.464-0500] [INFO ]       nSamplesPerSec  22050
+[2024-11-11T15:06:14.465-0500] [INFO ]       nAvgBytesPerSec 88200
+[2024-11-11T15:06:14.465-0500] [INFO ]       nBlockAlign     4
+[2024-11-11T15:06:14.465-0500] [INFO ]       wBitsPerSample  16
+[2024-11-11T15:06:14.465-0500] [INFO ]       cbSize          0
+[2024-11-11T15:06:14.468-0500] [INFO ] sound_process_training: round trip time 3
+[2024-11-11T15:06:49.675-0500] [INFO ] Socket 18: connection accepted from AF_UNIX
+[2024-11-11T15:08:29.269-0500] [INFO ] Socket 16: connection accepted from AF_UNIX
+[2024-11-11T15:08:29.270-0500] [INFO ] sound_process_output_format:
+[2024-11-11T15:08:29.270-0500] [INFO ]       wFormatNo       0
+[2024-11-11T15:08:29.270-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-11T15:08:29.270-0500] [INFO ]       nChannels       2
+[2024-11-11T15:08:29.271-0500] [INFO ]       nSamplesPerSec  44100
+[2024-11-11T15:08:29.271-0500] [INFO ]       nAvgBytesPerSec 176400
+[2024-11-11T15:08:29.271-0500] [INFO ]       nBlockAlign     4
+[2024-11-11T15:08:29.272-0500] [INFO ]       wBitsPerSample  16
+[2024-11-11T15:08:29.272-0500] [INFO ]       cbSize          0
+[2024-11-11T15:08:29.272-0500] [INFO ] sound_process_output_format:
+[2024-11-11T15:08:29.272-0500] [INFO ]       wFormatNo       1
+[2024-11-11T15:08:29.272-0500] [INFO ]       wFormatTag      WAVE_FORMAT_PCM
+[2024-11-11T15:08:29.272-0500] [INFO ]       nChannels       2
+[2024-11-11T15:08:29.273-0500] [INFO ]       nSamplesPerSec  22050
+[2024-11-11T15:08:29.273-0500] [INFO ]       nAvgBytesPerSec 88200
+[2024-11-11T15:08:29.273-0500] [INFO ]       nBlockAlign     4
+[2024-11-11T15:08:29.273-0500] [INFO ]       wBitsPerSample  16
+[2024-11-11T15:08:29.273-0500] [INFO ]       cbSize          0
+[2024-11-11T15:08:29.281-0500] [INFO ] sound_process_training: round trip time 7

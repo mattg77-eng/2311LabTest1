@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/cs/home/mattg77
+vtest1
+Z0 !s110 1764357484
+!i10b 1
+!s100 k^C[2=W?N^55A>5PRVLY00
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]2`]AR@?e83H5m<N6Yh3G2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/eecs/home/mattg77/3201
+w1764123741
+8/eecs/home/mattg77/3201/test1.v
+F/eecs/home/mattg77/3201/test1.v
+!i122 21
+L0 2 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1764357484.000000
+!s107 /eecs/home/mattg77/3201/test1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/eecs/home/mattg77/3201/test1.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtest1_tb
+R0
+!i10b 1
+!s100 9GK60Wgf9O;CBUFVN3hnk2
+R1
+IVIiZ:7M[kG2FEj10UbHG;3
+R2
+R3
+w1764357422
+8/eecs/home/mattg77/3201/test1_tb.v
+F/eecs/home/mattg77/3201/test1_tb.v
+!i122 20
+L0 3 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 /eecs/home/mattg77/3201/test1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/eecs/home/mattg77/3201/test1_tb.v|
+!i113 1
+R6
+R7
+vtest2
+R0
+!i10b 1
+!s100 zlMOX8gNDFg]S5;B8?TZ?0
+R1
+IKmo6e2RV;BIM1^MCMVdEJ1
+R2
+R3
+w1764123582
+8/eecs/home/mattg77/3201/test2.v
+F/eecs/home/mattg77/3201/test2.v
+!i122 22
+L0 1 26
+R4
+r1
+!s85 0
+31
+R5
+!s107 /eecs/home/mattg77/3201/test2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/eecs/home/mattg77/3201/test2.v|
+!i113 1
+R6
+R7
+vtest2_tb
+R0
+!i10b 1
+!s100 e=g[FkgO@]Pobmbbc;PM]0
+R1
+IDK[^E>_C87VFW0J?doTHB2
+R2
+R3
+w1764125002
+8/eecs/home/mattg77/3201/test2_tb.v
+F/eecs/home/mattg77/3201/test2_tb.v
+!i122 19
+L0 3 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 /eecs/home/mattg77/3201/test2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/eecs/home/mattg77/3201/test2_tb.v|
+!i113 1
+R6
+R7

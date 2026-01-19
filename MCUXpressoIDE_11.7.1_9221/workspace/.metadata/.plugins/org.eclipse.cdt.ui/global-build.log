@@ -1,0 +1,415 @@
+19:58:52 **** Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../utilities/fsl_debug_console.c
+Building file: ../utilities/fsl_str.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../utilities/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -MT"utilities/fsl_debug_console.d" -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../utilities/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"utilities/fsl_str.d" -MT"utilities/fsl_str.o" -MT"utilities/fsl_str.d" -o "utilities/fsl_str.o" "../utilities/fsl_str.c"
+Finished building: ../utilities/fsl_debug_console.c
+Finished building: ../utilities/fsl_str.c
+ 
+ 
+Building file: ../startup/startup_mkl43z4.c
+Invoking: MCU C Compiler
+Building file: ../source/MKL43Z4_Project.c
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../startup/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"startup/startup_mkl43z4.d" -MT"startup/startup_mkl43z4.o" -MT"startup/startup_mkl43z4.d" -o "startup/startup_mkl43z4.o" "../startup/startup_mkl43z4.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../startup/startup_mkl43z4.c
+ 
+Building file: ../source/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/mtb.d" -MT"source/mtb.o" -MT"source/mtb.d" -o "source/mtb.o" "../source/mtb.c"
+../source/MKL43Z4_Project.c: In function 'main':
+../source/MKL43Z4_Project.c:71:14: error: 'SystTick' undeclared (first use in this function); did you mean 'SysTick'?
+   71 |      while ((SystTick->CTRL & 0x10000) == 0) {
+      |              ^~~~~~~~
+      |              SysTick
+../source/MKL43Z4_Project.c:71:14: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [source/subdir.mk:26: source/MKL43Z4_Project.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+Finished building: ../source/mtb.c
+ 
+make: *** [makefile:43: all] Error 2
+"make -r -j2 all" terminated with exit code 2. Build might be incomplete.
+20:01:36 **** Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/MKL43Z4_Project.c
+Building file: ../source/semihost_hardfault.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/semihost_hardfault.d" -MT"source/semihost_hardfault.o" -MT"source/semihost_hardfault.d" -o "source/semihost_hardfault.o" "../source/semihost_hardfault.c"
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../source/semihost_hardfault.c
+ 
+Building file: ../drivers/fsl_clock.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_clock.d" -MT"drivers/fsl_clock.o" -MT"drivers/fsl_clock.d" -o "drivers/fsl_clock.o" "../drivers/fsl_clock.c"
+Finished building: ../source/MKL43Z4_Project.c
+Finished building: ../drivers/fsl_clock.c
+ 
+ 
+Building file: ../drivers/fsl_common.c
+Invoking: MCU C Compiler
+Building file: ../drivers/fsl_gpio.c
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_common.d" -MT"drivers/fsl_common.o" -MT"drivers/fsl_common.d" -o "drivers/fsl_common.o" "../drivers/fsl_common.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_gpio.d" -MT"drivers/fsl_gpio.o" -MT"drivers/fsl_gpio.d" -o "drivers/fsl_gpio.o" "../drivers/fsl_gpio.c"
+Finished building: ../drivers/fsl_common.c
+Finished building: ../drivers/fsl_gpio.c
+ 
+ 
+Building file: ../drivers/fsl_lpuart.c
+Invoking: MCU C Compiler
+Building file: ../drivers/fsl_smc.c
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_lpuart.d" -MT"drivers/fsl_lpuart.o" -MT"drivers/fsl_lpuart.d" -o "drivers/fsl_lpuart.o" "../drivers/fsl_lpuart.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_smc.d" -MT"drivers/fsl_smc.o" -MT"drivers/fsl_smc.d" -o "drivers/fsl_smc.o" "../drivers/fsl_smc.c"
+Finished building: ../drivers/fsl_smc.c
+ 
+Finished building: ../drivers/fsl_lpuart.c
+Building file: ../drivers/fsl_uart.c
+ 
+Invoking: MCU C Compiler
+Building file: ../device/system_MKL43Z4.c
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../drivers/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"drivers/fsl_uart.d" -MT"drivers/fsl_uart.o" -MT"drivers/fsl_uart.d" -o "drivers/fsl_uart.o" "../drivers/fsl_uart.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../device/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"device/system_MKL43Z4.d" -MT"device/system_MKL43Z4.o" -MT"device/system_MKL43Z4.d" -o "device/system_MKL43Z4.o" "../device/system_MKL43Z4.c"
+Finished building: ../device/system_MKL43Z4.c
+ 
+Building file: ../component/uart/lpuart_adapter.c
+Finished building: ../drivers/fsl_uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../component/uart/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"component/uart/lpuart_adapter.d" -MT"component/uart/lpuart_adapter.o" -MT"component/uart/lpuart_adapter.d" -o "component/uart/lpuart_adapter.o" "../component/uart/lpuart_adapter.c"
+ 
+Building file: ../component/serial_manager/serial_manager.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../component/serial_manager/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"component/serial_manager/serial_manager.d" -MT"component/serial_manager/serial_manager.o" -MT"component/serial_manager/serial_manager.d" -o "component/serial_manager/serial_manager.o" "../component/serial_manager/serial_manager.c"
+Finished building: ../component/uart/lpuart_adapter.c
+ 
+Building file: ../component/serial_manager/serial_port_uart.c
+Finished building: ../component/serial_manager/serial_manager.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../component/serial_manager/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"component/serial_manager/serial_port_uart.d" -MT"component/serial_manager/serial_port_uart.o" -MT"component/serial_manager/serial_port_uart.d" -o "component/serial_manager/serial_port_uart.o" "../component/serial_manager/serial_port_uart.c"
+ 
+Building file: ../component/lists/generic_list.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../component/lists/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"component/lists/generic_list.d" -MT"component/lists/generic_list.o" -MT"component/lists/generic_list.d" -o "component/lists/generic_list.o" "../component/lists/generic_list.c"
+Finished building: ../component/serial_manager/serial_port_uart.c
+ 
+Finished building: ../component/lists/generic_list.c
+Building file: ../board/board.c
+ 
+Invoking: MCU C Compiler
+Building file: ../board/clock_config.c
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/board.d" -MT"board/board.o" -MT"board/board.d" -o "board/board.o" "../board/board.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/clock_config.d" -MT"board/clock_config.o" -MT"board/clock_config.d" -o "board/clock_config.o" "../board/clock_config.c"
+Finished building: ../board/clock_config.c
+ 
+Finished building: ../board/board.c
+Building file: ../board/peripherals.c
+ 
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/peripherals.d" -MT"board/peripherals.o" -MT"board/peripherals.d" -o "board/peripherals.o" "../board/peripherals.c"
+Building file: ../board/pin_mux.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../board/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"board/pin_mux.d" -MT"board/pin_mux.o" -MT"board/pin_mux.d" -o "board/pin_mux.o" "../board/pin_mux.c"
+Finished building: ../board/peripherals.c
+ 
+Finished building: ../board/pin_mux.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12816 B       256 KB      4.89%
+            SRAM:        4472 B        32 KB     13.65%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:01:42 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:02:40 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:03:51 **** Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:03:53 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:05:38 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/MKL43Z4_Project.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../source/MKL43Z4_Project.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12816 B       256 KB      4.89%
+            SRAM:        4472 B        32 KB     13.65%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:05:53 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/MKL43Z4_Project.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../source/MKL43Z4_Project.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12816 B       256 KB      4.89%
+            SRAM:        4472 B        32 KB     13.65%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:06:07 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/MKL43Z4_Project.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../source/MKL43Z4_Project.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12816 B       256 KB      4.89%
+            SRAM:        4472 B        32 KB     13.65%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:06:51 **** Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/MKL43Z4_Project.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../source/MKL43Z4_Project.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12816 B       256 KB      4.89%
+            SRAM:        4472 B        32 KB     13.65%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:06:53 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:07:22 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/MKL43Z4_Project.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../source/MKL43Z4_Project.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12816 B       256 KB      4.89%
+            SRAM:        4472 B        32 KB     13.65%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:09:34 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/MKL43Z4_Project.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../source/MKL43Z4_Project.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12816 B       256 KB      4.89%
+            SRAM:        4472 B        32 KB     13.65%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:14:42 **** Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/Lab9_Project.c
+Building file: ../source/MKL43Z4_Project.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/Lab9_Project.d" -MT"source/Lab9_Project.o" -MT"source/Lab9_Project.d" -o "source/Lab9_Project.o" "../source/Lab9_Project.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/MKL43Z4_Project.d" -MT"source/MKL43Z4_Project.o" -MT"source/MKL43Z4_Project.d" -o "source/MKL43Z4_Project.o" "../source/MKL43Z4_Project.c"
+Finished building: ../source/Lab9_Project.c
+ 
+Building file: ../source/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/mtb.d" -MT"source/mtb.o" -MT"source/mtb.d" -o "source/mtb.o" "../source/mtb.c"
+Finished building: ../source/MKL43Z4_Project.c
+ 
+Building file: ../source/semihost_hardfault.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/semihost_hardfault.d" -MT"source/semihost_hardfault.o" -MT"source/semihost_hardfault.d" -o "source/semihost_hardfault.o" "../source/semihost_hardfault.c"
+Finished building: ../source/mtb.c
+ 
+Finished building: ../source/semihost_hardfault.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/Lab9_Project.o ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+c:/nxp/mcuxpressoide_11.7.1_9221/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.7.1.202301190959/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: ./source/MKL43Z4_Project.o: in function `main':
+Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\Debug/../source/MKL43Z4_Project.c:49: multiple definition of `main'; ./source/Lab9_Project.o:Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\Debug/../source/Lab9_Project.c:76: first defined here
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       13392 B       256 KB      5.11%
+            SRAM:        4476 B        32 KB     13.66%
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:52: MKL43Z4_Project.axf] Error 1
+make: *** [makefile:43: all] Error 2
+"make -r -j2 all" terminated with exit code 2. Build might be incomplete.
+20:14:55 **** Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/Lab9_Project.o ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+c:/nxp/mcuxpressoide_11.7.1_9221/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.7.1.202301190959/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: ./source/MKL43Z4_Project.o: in function `main':
+Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\Debug/../source/MKL43Z4_Project.c:49: multiple definition of `main'; ./source/Lab9_Project.o:Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\Debug/../source/Lab9_Project.c:76: first defined here
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       13392 B       256 KB      5.11%
+            SRAM:        4476 B        32 KB     13.66%
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:52: MKL43Z4_Project.axf] Error 1
+make: *** [makefile:43: all] Error 2
+"make -r -j2 all" terminated with exit code 2. Build might be incomplete.
+20:15:48 **** Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/Lab9_Project.o ./source/MKL43Z4_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+c:/nxp/mcuxpressoide_11.7.1_9221/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.7.1.202301190959/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: ./source/MKL43Z4_Project.o: in function `main':
+Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\Debug/../source/MKL43Z4_Project.c:49: multiple definition of `main'; ./source/Lab9_Project.o:Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\Debug/../source/Lab9_Project.c:76: first defined here
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       13392 B       256 KB      5.11%
+            SRAM:        4476 B        32 KB     13.66%
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:52: MKL43Z4_Project.axf] Error 1
+make: *** [makefile:43: all] Error 2
+"make -r -j2 all" terminated with exit code 2. Build might be incomplete.
+20:16:03 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/Lab9_Project.c
+Building file: ../source/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/Lab9_Project.d" -MT"source/Lab9_Project.o" -MT"source/Lab9_Project.d" -o "source/Lab9_Project.o" "../source/Lab9_Project.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/mtb.d" -MT"source/mtb.o" -MT"source/mtb.d" -o "source/mtb.o" "../source/mtb.c"
+Finished building: ../source/mtb.c
+ 
+Building file: ../source/semihost_hardfault.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/semihost_hardfault.d" -MT"source/semihost_hardfault.o" -MT"source/semihost_hardfault.d" -o "source/semihost_hardfault.o" "../source/semihost_hardfault.c"
+Finished building: ../source/semihost_hardfault.c
+ 
+Finished building: ../source/Lab9_Project.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/Lab9_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       13392 B       256 KB      5.11%
+            SRAM:        4476 B        32 KB     13.66%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  13388	      4	   4472	  17864	   45c8	MKL43Z4_Project.axf
+ 
+20:29:19 **** Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+Building file: ../source/Lab9_Project.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCPU_MKL43Z256VLH4 -DCPU_MKL43Z256VLH4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -DSERIAL_PORT_TYPE_UART=1 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\board" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\source" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\drivers" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\CMSIS" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\device" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\uart" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\serial_manager" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\utilities" -I"Z:\MCUXpressoIDE_11.7.1_9221\workspace\MKL43Z4_Project\component\lists" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/Lab9_Project.d" -MT"source/Lab9_Project.o" -MT"source/Lab9_Project.d" -o "source/Lab9_Project.o" "../source/Lab9_Project.c"
+Finished building: ../source/Lab9_Project.c
+ 
+Building target: MKL43Z4_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="MKL43Z4_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL43Z4_Project_Debug.ld -o "MKL43Z4_Project.axf" ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mkl43z4.o  ./source/Lab9_Project.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MKL43Z4.o  ./component/uart/lpuart_adapter.o  ./component/serial_manager/serial_manager.o ./component/serial_manager/serial_port_uart.o  ./component/lists/generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       12816 B       256 KB      4.89%
+            SRAM:        4472 B        32 KB     13.65%
+Finished building target: MKL43Z4_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
+20:29:21 **** Incremental Build of configuration Debug for project MKL43Z4_Project ****
+make -r -j2 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "MKL43Z4_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MKL43Z4_Project.axf" "MKL43Z4_Project.bin" ; # checksum -p MKL43Z256xxx4 -d "MKL43Z4_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12812	      4	   4468	  17284	   4384	MKL43Z4_Project.axf
+ 
