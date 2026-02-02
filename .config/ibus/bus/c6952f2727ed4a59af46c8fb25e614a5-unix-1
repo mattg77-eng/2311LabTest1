@@ -1,3 +1,0 @@
-# This file is created by ibus-daemon, please do not modify it
-IBUS_ADDRESS=unix:abstract=/tmp/dbus-LCFi271t,guid=ceb4cf74d500f7facadae75e67aa8f69
-IBUS_DAEMON_PID=370988

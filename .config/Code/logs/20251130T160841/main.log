@@ -1,6 +1,0 @@
-2025-11-30 16:08:41.531 [error] Invalid path provided: /cs/home/mattg77/Downloads/StarterKit-F25, ENOENT: no such file or directory, stat '/cs/home/mattg77/Downloads/StarterKit-F25'
-2025-11-30 16:08:41.531 [info] update#setState disabled
-2025-11-30 16:08:41.531 [info] update#ctor - updates are disabled by user preference
-2025-11-30 16:08:49.955 [info] Extension host with pid 2825657 exited with code: 0, signal: unknown.
-2025-11-30 16:08:50.057 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 2825630]: crashed with code 15 and reason 'killed'
-2025-11-30 16:11:59.156 [info] Extension host with pid 2825894 exited with code: 0, signal: unknown.
