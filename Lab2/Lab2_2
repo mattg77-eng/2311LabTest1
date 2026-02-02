@@ -1,5 +1,0 @@
-a) ls -d .*
-b) cat '*notes?.txt'
-c) mv 'hello$world.txt' greetings.txt
-d) ls -d /data/*/ | grep -v '/data/temp/'
-e) ls ~/*.sh > `echo scripts_list.txt`
