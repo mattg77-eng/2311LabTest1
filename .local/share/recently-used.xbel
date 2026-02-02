@@ -1518,12 +1518,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///eecs/home/mattg77/EECS3101_W26_Tutorial_1_Solution.zip" added="2026-01-08T19:48:45Z" modified="2026-01-08T19:48:45Z" visited="2026-01-08T19:48:45.907212Z">
+  <bookmark href="file:///eecs/home/mattg77/EECS3101_W26_Tutorial_1_Solution.zip" added="2026-01-08T19:48:45Z" modified="2026-01-08T19:48:45Z" visited="2026-01-08T19:48:45Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/zip"/>
         <bookmark:applications>
           <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2026-01-08T19:48:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///cs/home/mattg77/Labtest_1_Git.pdf" added="2026-02-02T16:35:38Z" modified="2026-02-02T16:35:38Z" visited="2026-02-02T16:35:38.302371Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2026-02-02T16:35:38Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

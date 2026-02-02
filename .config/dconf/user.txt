@@ -19,7 +19,7 @@ sources=[('xkb', 'us')]
 xkb-options=@as []
 
 [org/gnome/software]
-check-timestamp=int64 1768839749
+check-timestamp=int64 1770049637
 
 install-timestamp=int64 1732751904
 
@@ -27,7 +27,7 @@ install-timestamp=int64 1732751904
 application-id='org.gnome.Software.desktop'
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'org-gnome-nautilus', 'org-gnome-gedit', 'eclipse', 'quartus']
+application-children=['org-gnome-software', 'org-gnome-nautilus', 'org-gnome-gedit', 'eclipse', 'quartus', 'org-gnome-terminal']
 
 [org/gnome/file-roller/listing]
 show-path=false
@@ -130,3 +130,6 @@ application-id='quartus.desktop'
 autorun-x-content-start-app=@as []
 autorun-x-content-ignore=@as []
 autorun-x-content-open-folder=@as []
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'

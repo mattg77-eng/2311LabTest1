@@ -100,21 +100,49 @@ make clean
 make priority_rr
 #+1764536315
 bash
-#+1768840316
-git
-#+1768840388
-git config user.name
-#+1768840410
-pwd
-#+1768840415
-git init
 #+1768840437
 la -la
-#+1768840446
-ls -la
-#+1768840496
+#+1768840566
+git
+#+1768840612
 touch test.txt
-#+1768840502
+#+1768840639
+.
+#+1768840644
+dfd
+#+1768840664
+git commit -m "my first commit"
+#+1768840700
+git log
+#+1768840803
+touch test1.txt
+#+1768840805
 ls
-#+1768840516
+#+1768840835
+touch test2.txt
+#+1768840842
 git add .
+#+1768840864
+git status
+#+1768840978
+git config --global user.name "mattg77"
+#+1768840993
+git config mattg77
+#+1768840999
+git config user.name
+#+1768841039
+/eecs/home/mattg77/git
+#+1768841045
+pwd
+#+1768843060
+GIT INIT
+#+1768843063
+git init
+#+1768843068
+cd .git/
+#+1768843073
+ls -la
+#+1768843084
+git remote add origin https://github.com/mattg77-eng/2311-tutorial1.git
+#+1768843615
+git push -u origin master

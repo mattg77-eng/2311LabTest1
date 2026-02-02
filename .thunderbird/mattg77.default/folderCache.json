@@ -7,6 +7,7 @@
 		"flags" : 0,
 		"folderSize" : -1,
 		"hierDelim" : 94,
+		"lastSyncTimeInSec" : 0,
 		"onlineName" : "",
 		"pendingMsgs" : 0,
 		"pendingUnreadMsgs" : 0,
@@ -15,6 +16,25 @@
 		"serverUnseen" : 0,
 		"totalMsgs" : -1,
 		"totalUnreadMsgs" : -1
+	},
+	"/eecs/home/mattg77/.thunderbird/mattg77.default/ImapMail/mail.eecs.yorku.ca/INBOX-1.msf" : 
+	{
+		"MRUTime" : "1768841068",
+		"aclFlags" : 0,
+		"applyIncomingFilters" : "",
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 12308,
+		"folderSize" : -1,
+		"hierDelim" : 94,
+		"onlineName" : "INBOX",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
 	},
 	"/eecs/home/mattg77/.thunderbird/mattg77.default/ImapMail/mail.eecs.yorku.ca/INBOX.msf" : 
 	{

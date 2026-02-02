@@ -1,0 +1,66 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=folderName)>
+{1:^80 {(k^96:c)(s=9)} }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} }
+
+<(80=1)(81=0)(82=INBOX)>
+{1:^9E {(k^9F:c)(s=9u)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)]}
+
+@$${1{@
+<(83=1004)>[1:^9E(^88^83)]
+@$$}1}@
+
+@$${2{@
+[1:^9E(^A6^82)]
+@$$}2}@
+
+@$${3{@
+<(84=3004)>[1:^9E(^88^84)]
+@$$}3}@
+
+@$${4{@
+<(85=3014)>[1:^9E(^88^85)]
+@$$}4}@
+
+@$${5{@
+@$$}5}@
+
+@$${6{@
+@$$}6}@
+
+@$${7{@
+@$$}7}@
+
+@$${8{@
+@$$}8}@
+
+@$${A{@
+< <(a=c)> // (f=iso-8859-1)
+  (B8=MRUTime)(B0=applyIncomingFilters)(B1=highestModSeq)
+  (B2=highestRecordedUID)(B3=columnStates)(B4=sortType)(B5=sortOrder)
+  (B6=viewFlags)(B7=viewType)>
+<(86=1768841068)>[1:^9E(^B8^86)]
+@$$}A}@
+
+@$${B{@
+< <(a=c)> // (f=iso-8859-1)
+  (B9=sortColumns)(BA=customSortCol)>
+<(87=12)(88=2)(89=$122)>[-1:^9E(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^88^85)
+    (^A6^82)(^B8^86)(^B4=12)(^B5=2)(^B6=1)(^B7=0)(^B9^89)]
+@$$}B}@
